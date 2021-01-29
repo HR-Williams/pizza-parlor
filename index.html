@@ -8,6 +8,33 @@
   <title>Pizza</title>
 </head>
 <body>
+  <div class="container">
+    <h1>Pizza Parlor</h1>
+    <form id="pizzaForm">
+      <h3>Choose a size</h3>
+      <select class="form-control" id="size">
+        <option value="10">Small $10</option>
+        <option value="15">Medium $15</option>
+        <option value="18">Large $18</option>
+      </select>
+      <h3>Choose your first topping</h3>
+      <select class="form-control" id="topping One">
+        <option value="2">pickled peppers $2</option>
+        <option value="2">Red Onion $2</option>
+        <option value="2">pineapple $2</option>
+      </select>
+      <h3>Choose your next topping</h3>
+      <select class="form-control" id="topping One">
+        <option value="2">pickled peppers $2</option>
+        <option value="2">Red Onion $2</option>
+        <option value="2">pineapple $2</option>
+      </select>
+      <button type="submit" class = "btn">Price</button>
+    </form>
+    <div id="show-price">
+      <p>$<span id="price"><span></p>
+    </div>
+  </div>
   
 </body>
 </html>

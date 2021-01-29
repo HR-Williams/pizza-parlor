@@ -1,5 +1,5 @@
 function Pizza(sizePrice, toppingOne, toppingTwo) {
-  this.sizePrice = sizePrice;
+  this.size = size;
   this.toppingOne = toppingOne;
   this.toppingTwo = toppingTwo;
 }
