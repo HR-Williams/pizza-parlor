@@ -18,6 +18,9 @@ Install pizza-parlor by cloning this repository.
 Test: "It returns 10 for a small pizza" <br>
 Expect(myPizza(10)).toEqual(10);
 
+Test: "It returns (10, 2, 2) for a small pizza with 2 toppings" <br>
+Expect(myPizza(10, 2, 2)).toEqual(10, 2, 2);
+
 
 
 
