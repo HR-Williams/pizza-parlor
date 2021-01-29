@@ -22,8 +22,8 @@ Test: "It returns (10, 2, 2) for a small pizza with 2 toppings" <br>
 Expect(myPizza(10, 2, 2)).toEqual(10, 2, 2);
 
 
-**Describe** Pizza.prototype.totalCost()
-**Test** Add each property value within Pizza object together to calculate totalPrice
+**Describe Pizza.prototype.totalCost()** <br>
+Test: Add each property value within Pizza object together to calculate totalPrice <br>
 Expect myPizza.totalCost().toEqual(14)
 
 
