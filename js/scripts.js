@@ -7,3 +7,4 @@ function Pizza(sizePrice, toppingOne, toppingTwo) {
 Pizza.prototype.totalCost = function () {
   return (this.sizePrice + this.toppingOne + this.toppingTwo)
 }
+
