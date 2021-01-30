@@ -5,7 +5,8 @@ function Pizza(size, toppingOne, toppingTwo) {
 }
 
 Pizza.prototype.totalCost = function () {
-  return this.sizePrice + this.toppingOne + this.toppingTwo;
+  let total = (this.size + this.toppingOne + this.toppingTwo)
+  return total
 }
 
 
@@ -16,7 +17,8 @@ $(document).ready(function() {
     console.log(size);
     let toppingOne = parseInt($("#toppingOne").val());
     console.log(toppingOne);
-    let toppingTwo = parseInt($("toppingTwo").val());
+    let toppingTwo = parseInt($("#toppingTwo").val());
+    console.log(toppingTwo);
     let totalPrice = new Pizza(size, toppingOne, toppingTwo);
     console.log(totalPrice)
     $("#show-price").show();
