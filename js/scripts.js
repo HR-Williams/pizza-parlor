@@ -17,7 +17,8 @@ $(document).ready(function() {
     let size = parseInt($("#size").val());
     let toppingOne = parseInt($("#toppingOne").val());
     let toppingTwo = parseInt($("#toppingTwo").val());
-    let totalPrice = new Pizza(size, toppingOne, toppingTwo);
+    let toppingThree = parseInt($("#toppingThree").val());
+    let totalPrice = new Pizza(size, toppingOne, toppingTwo, toppingThree);
     $("#show-price").show();
     $("#price").text(totalPrice.totalCost());
     
