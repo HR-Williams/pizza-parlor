@@ -14,7 +14,7 @@
     <br>
     <br>
     <br>
-    
+
     <h4>ORDER A PIZZA</h4>
     <form id="pizzaForm">
       <h5>Choose a size</h5>
@@ -23,27 +23,19 @@
         <option value="15">Medium $15</option>
         <option value="18">Large $18</option>
       </select>
-      <h5>Choose your first topping</h5>
-      <select class="form-control" id="toppingOne">
-        <option value="0">No toppings</option>
-        <option value="2">pickled peppers $2</option>
-        <option value="2">Red Onion $2</option>
-        <option value="2">pineapple $2</option>
-      </select>
-      <h5>Choose your second topping</h5>
-      <select class="form-control" id="toppingTwo">
-        <option value="0">No 2nd topping</option>
-        <option value="2">pickled peppers $2</option>
-        <option value="2">Red Onion $2</option>
-        <option value="2">pineapple $2</option>
-      </select>
-      <h5>Choose your third topping</h5>
-      <select class="form-control" id="toppingThree">
-        <option value="0">No 3rd topping</option>
-        <option value="2">pickled peppers $2</option>
-        <option value="2">Red Onion $2</option>
-        <option value="2">pineapple $2</option>
-      </select>
+      <br>
+      <div class="form-group">
+        <h5>choose your toppings:</h5>
+        <input type="checkbox" name="toppings" value="0"> No toppings <br>
+        <input type="checkbox" name="toppings" value="3"> anchovy $3 <br>
+        <input type="checkbox" name="toppings" value="2"> pickled peppers $2<br>
+        <input type="checkbox" name="toppings" value="1"> red onion $1 <br>
+        <input type="checkbox" name="toppings" value="2"> pineappple $2 <br>
+        <input type="checkbox" name="toppings" value="1"> basil $1 <br>
+        <input type="checkbox" name="toppings" value="3"> riccotta cheese $3 <br>
+        <input type="checkbox" name="toppings" value="3"> goat cheese $3<br>
+      </div>
+     
       <button type="submit" class = "btn">Price</button>
     </form>
     <div id="show-price">
