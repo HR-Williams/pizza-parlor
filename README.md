@@ -40,14 +40,5 @@ Expect myPizza.totalCost().toEqual(16)
 
 ## Known Bugs
 
-* _I would like to try to turn the topping options into check boxes as this would allow user to easily pick as few or as many toppings as they would like_
+* _I am working on the "check-boxes branch" to turn the topping options into check boxes as this would allow user to easily pick as few or as many toppings as they would like_
 
-## License
-
-_[MIT](https://choosealicense.com/licenses/mit/)_
-
-Copyright (c) 2021 HR Williams
-
-## Contact Information
-
-HR Williams <williams.hr@gmail.com>
