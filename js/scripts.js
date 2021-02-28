@@ -1,8 +1,6 @@
-function Pizza(size, toppingOne, toppingTwo, toppingThree) {
+function Pizza(size, toppings) {
   this.size = size;
-  this.toppingOne = toppingOne;
-  this.toppingTwo = toppingTwo;
-  this.toppingThree = toppingThree;
+  this.toppings= [];
 }
 
 Pizza.prototype.totalCost = function () {
