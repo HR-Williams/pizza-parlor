@@ -17,7 +17,7 @@
 
     <h4>ORDER A PIZZA</h4>
     <form id="pizzaForm">
-      <h5>Choose a size</h5>
+      <label for="size">Choose pizza size</label>
       <select class="form-control" id="size">
         <option value="10">Small $10</option>
         <option value="15">Medium $15</option>
@@ -27,16 +27,16 @@
       <div class="form-group">
         <h5>choose your toppings:</h5>
         <input type="checkbox" name="toppings" value="0"> No toppings <br>
-        <input type="checkbox" name="toppings" value="3"> anchovy $3 <br>
-        <input type="checkbox" name="toppings" value="2"> pickled peppers $2<br>
+        <input type="checkbox" name="toppings" value="2"> anchovy $2 <br>
+        <input type="checkbox" name="toppings" value="1"> pickled peppers $1<br>
         <input type="checkbox" name="toppings" value="1"> red onion $1 <br>
-        <input type="checkbox" name="toppings" value="2"> pineappple $2 <br>
+        <input type="checkbox" name="toppings" value="1"> pineappple $1 <br>
         <input type="checkbox" name="toppings" value="1"> basil $1 <br>
-        <input type="checkbox" name="toppings" value="3"> riccotta cheese $3 <br>
-        <input type="checkbox" name="toppings" value="3"> goat cheese $3<br>
+        <input type="checkbox" name="toppings" value="1"> riccotta cheese $1 <br>
+        <input type="checkbox" name="toppings" value="1"> goat cheese $1<br>
       </div>
-     
-      <button type="submit" class = "btn">Price</button>
+      <br>
+      <button type="submit" class ="btn btn-danger">What's the Price</button>
     </form>
     <div id="show-price">
       <p>$<span id="price"><span></p>
