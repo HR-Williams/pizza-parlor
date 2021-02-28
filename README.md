@@ -13,6 +13,9 @@ This application allows the user to choose a pizza size and add toppings and the
 Install pizza-parlor by cloning this repository.
 
 ## Tests
+**Describe: function Pizza(size, toppingOne, toppingTwo)** <br>
+Test: "It should create a Pizza object"
+Expect(let myPizza = new Pizza(10, 2, 2)).toEqual(Pizza{size: 10, toppingOne: 2, toppingTwo: 2})
 
 **Describe: Pizza(sizePrice)** <br>
 Test: "It returns 10 for a small pizza" <br>
